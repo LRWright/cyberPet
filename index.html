@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Pet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="box">
+
+        <div class="cat" id="cat">
+            <img src="img/cat.png">
+        </div>
+
+        <div class="dog" id="dog">
+            <img src="img/dog.png">
+        </div>
+
+        <div id="funcs">
+
+            <button id="feedButton">feed</button>
+            <progress class="objectLevels" id="feedLevel" max="100" value="50"></progress>
+
+            <button id="waterButton">water</button>
+            <progress class="objectLevels" id="waterLevel" max="100" value="50"></progress>
+
+            <button id="napButton">nap</button>
+            <progress class="objectLevels" id="napLevel" max="100" value="50"></progress>
+
+            <button id="walkButton">walk</button>
+            <progress class="objectLevels" id="walkLevel" max="100" value="50"></progress>
+
+    </div>
+
+    <script src="pet.js"></script>
+    <script src="petUI.js"></script>
+</body>
+
+</html>
