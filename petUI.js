@@ -29,18 +29,18 @@ petRabbit.addEventListener("click", () => {
 })
 
 
-buttonFeed.addEventListener("click", () => { 
+buttonFeed.addEventListener("click", () => {
     feedLevel.value += 20;
     funLevel.value -= 10;
-    })
+})
 
-buttonWater.addEventListener("click", () => { 
+buttonWater.addEventListener("click", () => {
     waterLevel.value += 20;
     funLevel.value -= 10;
-    })
+})
 
-buttonFun.addEventListener("click", () => { 
+buttonFun.addEventListener("click", () => {
     funLevel.value += 20;
     waterLevel.value -= 10;
     feedLevel.value -= 10;
-    })
+})
